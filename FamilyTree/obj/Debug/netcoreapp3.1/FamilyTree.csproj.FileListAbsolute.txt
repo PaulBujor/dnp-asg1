@@ -102,3 +102,5 @@ C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Fami
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\FamilyTree.csproj.CopyComplete
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Adding.razor.g.cs
+C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Adding.razor.g.cs
