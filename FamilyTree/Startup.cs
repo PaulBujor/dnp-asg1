@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using FamilyTree.Data;
 using FamilyTree.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
+using Models;
 
 namespace FamilyTree
 {
@@ -33,6 +34,7 @@ namespace FamilyTree
 			services.AddSingleton<WeatherForecastService>();
 			services.AddScoped<IUserService, InMemoryUserService>();
 			services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+			services.AddSingleton<IModel, Model>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

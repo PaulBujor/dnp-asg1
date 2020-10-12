@@ -148,9 +148,9 @@ using FamilyTree.Shared;
             __builder.AddMarkupContent(30, "\r\n            ");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(31);
             __builder.AddAttribute(32, "class", "nav-link");
-            __builder.AddAttribute(33, "href", "counter");
+            __builder.AddAttribute(33, "href", "adding");
             __builder.AddAttribute(34, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(35, "\r\n                <span class=\"oi oi-plus\" aria-hidden=\"true\"></span> Counter\r\n            ");
+                __builder2.AddMarkupContent(35, "\r\n                <span class=\"oi oi-plus\" aria-hidden=\"true\"></span> Adding\r\n            ");
             }
             ));
             __builder.CloseComponent();
