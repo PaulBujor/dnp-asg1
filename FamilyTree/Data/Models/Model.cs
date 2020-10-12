@@ -31,7 +31,13 @@ namespace Models
 
 		public IList<Adult> GetAdults(string searchCriteria)
 		{
-			throw new NotImplementedException();
+			List<Adult> search = new List<Adult>();
+			foreach (Adult adult in adults)
+			{
+				if (adult.ToString().Contains(searchCriteria))
+					search.Add(adult);
+			}
+			return search;
 		}
 	}
 }
