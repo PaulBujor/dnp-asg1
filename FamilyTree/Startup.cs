@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using FamilyTree.Data;
+using FamilyTree.Authentication;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace FamilyTree
 {
@@ -29,6 +31,8 @@ namespace FamilyTree
 			services.AddRazorPages();
 			services.AddServerSideBlazor();
 			services.AddSingleton<WeatherForecastService>();
+			services.AddScoped<IUserService, InMemoryUserService>();
+			services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
