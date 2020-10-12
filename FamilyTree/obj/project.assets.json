@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\EG\\.nuget\\packages\\": {}
+    "C:\\Users\\tatar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTree\\FamilyTree.csproj",
+      "projectUniqueName": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTree\\FamilyTree.csproj",
       "projectName": "FamilyTree",
-      "projectPath": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTree\\FamilyTree.csproj",
-      "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-      "outputPath": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTree\\obj\\",
+      "projectPath": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTree\\FamilyTree.csproj",
+      "packagesPath": "C:\\Users\\tatar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTree\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tatar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
