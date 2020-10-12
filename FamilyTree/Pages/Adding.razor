@@ -1,32 +1,29 @@
 @page "/Adding"
+@using Models
+@using Data
+@using Microsoft.AspNetCore.Identity
+
+@inject IModel Model;
 <h3>Welcome to this awesome page.</h3>
 
 <h3>Add some cool people below..</h3>
 
 <form>
-    <label for="fname">First name: </label><br>
-    <input type="text" id="fname" name="fname" ><br>
     
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname"><br>
-    
-    <label for="occupation">Occupation:</label><br>
-    <input type="text" id="occupation" name="occupation"><br>
-    
-    <form>
-           <fieldset>
-              <legend>Selecting elements</legend>
-              <p>
-                 <label>Select list</label>
-                 <select id = "myList">
-                   <option value = "1">one</option>
-                   <option value = "2">two</option>
-                   <option value = "3">three</option>
-                   <option value = "4">four</option>
-                 </select>
-              </p>
-           </fieldset>
-        </form>
+    <input placeholder="First name" @bind="fName"><br>
+    <input placeholder="Last name" @bind="lName"><br>
+    <input placeholder="ID" @bind="id"><br>
+    <input placeholder="Age" @bind="age"><br>
+    <input placeholder="Occupation" @bind="occupation"><br>
+    <input placeholder="Eye color" @bind="eyeColor"><br>
+    <input placeholder="Hair color" @bind="hairColor"><br>
+    <input placeholder="Weight" @bind="weight"><br>
+    <input placeholder="Height" @bind="height"><br>
+    <input placeholder="Sex" @bind="sex"><br>
+
+    <br>
+    <br>
+    <button @onclick="AddAdult">Add cool person</button>
 </form>
 
 
@@ -35,5 +32,35 @@
 
 
 @code {
-    
+    private string fName;
+    private string lName;
+    private string hairColor;
+    private string occupation;
+    private string eyeColor;
+    private int age;
+    private string sex;
+    private float weight;
+    private int height;
+    private int id;
+
+
+
+    private void AddAdult()
+    {
+        Adult newAdult = new Adult{FirstName = fName,LastName = lName,Age = age,EyeColor = eyeColor,HairColor = hairColor,Height = height,Id = id,JobTitle = occupation,Sex = sex,Weight = weight};
+        Model.AddAdult(newAdult);
+
+
+
+        fName = string.Empty;
+        lName = string.Empty;
+        hairColor = string.Empty;
+        occupation = string.Empty;
+        age = 0;
+        sex = String.Empty;
+        weight = 0;
+        height = 0;
+        id = 0;
+
+    }
 }
