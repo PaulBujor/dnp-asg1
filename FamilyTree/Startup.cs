@@ -30,6 +30,7 @@ namespace FamilyTree
 			services.AddRazorPages();
 			services.AddServerSideBlazor();
 			services.AddSingleton<IModel, Model>();
+			services.AddSingleton<IAddPeople, AddPeopleService>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
