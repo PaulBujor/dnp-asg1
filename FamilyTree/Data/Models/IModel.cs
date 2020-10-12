@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-	interface IModel
+	public interface IModel
 	{
 		void AddAdult(Adult adult);
 		IList<Adult> GetAdults();

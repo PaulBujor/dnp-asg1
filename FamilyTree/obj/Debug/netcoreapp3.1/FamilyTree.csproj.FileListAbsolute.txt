@@ -104,3 +104,9 @@ C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razo
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Adding.razor.g.cs
 C:\Users\tatar\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Adding.razor.g.cs
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Adding.razor.g.cs
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Adding.razor.g.cs
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\bin\Debug\netcoreapp3.1\adults.json
+C:\Users\Paul\Documents\GitHub\dnp-asg1\FamilyTree\bin\Debug\netcoreapp3.1\families.json
