@@ -145,3 +145,7 @@ FamilyTree/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Adding.razor.g.cs
 FamilyTree/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs
 FamilyTree/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs
 FamilyTree/obj/Debug/netcoreapp3.1/FamilyTree.assets.cache
+FamilyTree/bin/Debug/netcoreapp3.1/FamilyTree.Views.pdb
+FamilyTree/bin/Debug/netcoreapp3.1/FamilyTree.Views.dll
+FamilyTree/bin/Debug/netcoreapp3.1/FamilyTree.pdb
+FamilyTree/bin/Debug/netcoreapp3.1/FamilyTree.dll
