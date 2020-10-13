@@ -31,7 +31,6 @@ namespace FamilyTree
 		{
 			services.AddRazorPages();
 			services.AddServerSideBlazor();
-			services.AddSingleton<WeatherForecastService>();
 			services.AddScoped<IUserService, InMemoryUserService>();
 			services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 			services.AddSingleton<IModel, Model>();
