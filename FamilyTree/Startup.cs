@@ -34,7 +34,6 @@ namespace FamilyTree
 			services.AddScoped<IUserService, InMemoryUserService>();
 			services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 			services.AddSingleton<IModel, Model>();
-			//I did a change to push it
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
