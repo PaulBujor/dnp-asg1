@@ -3,6 +3,8 @@
 @inject IJSRuntime JsRuntime
 @inject IModel Model;
 
+<AuthorizeView>
+<Authorized>
 <h3>Add some cool people below..</h3>
 
 <EditForm Model="@newAdult" OnValidSubmit="@AddCoolPerson">
@@ -65,6 +67,13 @@
     </p>
     <button type="submit">Add cool person</button>
 </EditForm>
+</Authorized>
+		<NotAuthorized>
+			<h3>You're not authorized to view this page... Please log in!</h3>
+			<Login />
+		</NotAuthorized>
+
+	</AuthorizeView>
 
 <div>
     
@@ -74,7 +83,18 @@
 
 @code {
     
-    
+    //[CascadingParameter] protected Task<AuthenticationState> AuthStat { get; set; }
+
+    //protected override async Task OnInitializedAsync()
+    //{
+    //	await base.OnInitializedAsync();
+    //	var user = (await AuthStat).User;
+    //	if (!user.Identity.IsAuthenticated)
+    //	{
+    //		NavigationManager.NavigateTo($"/Login");
+    //		// NavigationManager.NavigateTo($"/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
+    //	}
+    //}
     
     private Adult newAdult = new Adult();
 
