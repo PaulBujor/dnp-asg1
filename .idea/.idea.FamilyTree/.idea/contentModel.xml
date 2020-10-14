@@ -10,10 +10,17 @@
         <e p="App.razor" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
+        <e p="Authentication" t="Include">
+          <e p="CustomAuthenticationStateProvider.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Data" t="Include">
           <e p="adults.json" t="Include" />
           <e p="families.json" t="Include" />
+          <e p="Impl" t="Include">
+            <e p="InMemoryUserService.cs" t="Include" />
+          </e>
+          <e p="IUserService.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="AddPeopleService.cs" t="Include" />
             <e p="Adult.cs" t="Include" />
@@ -26,6 +33,7 @@
             <e p="Model.cs" t="Include" />
             <e p="Person.cs" t="Include" />
             <e p="Pet.cs" t="Include" />
+            <e p="User.cs" t="Include" />
           </e>
           <e p="Persistence" t="Include">
             <e p="FileContext.cs" t="Include" />
@@ -50,6 +58,7 @@
           <e p="Error.cshtml" t="Include" />
           <e p="FetchData.razor" t="Include" />
           <e p="Index.razor" t="Include" />
+          <e p="Login.razor" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

@@ -1,66 +1,90 @@
 @page "/Adding"
 @using Models
-@using Data
-@using Microsoft.AspNetCore.Identity
-
+@inject IJSRuntime JsRuntime
 @inject IModel Model;
 <h3>Welcome to this awesome page.</h3>
 
 <h3>Add some cool people below..</h3>
 
-<form>
+<EditForm Model="@newAdult" OnValidSubmit="@AddCoolPerson">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
     
-    <input placeholder="First name" @bind="fName"><br>
-    <input placeholder="Last name" @bind="lName"><br>
-    <input placeholder="ID" @bind="id"><br>
-    <input placeholder="Age" @bind="age"><br>
-    <input placeholder="Occupation" @bind="occupation"><br>
-    <input placeholder="Eye color" @bind="eyeColor"><br>
-    <input placeholder="Hair color" @bind="hairColor"><br>
-    <input placeholder="Weight" @bind="weight"><br>
-    <input placeholder="Height" @bind="height"><br>
-    <input placeholder="Sex" @bind="sex"><br>
+   
+    <p>
+       
+        <InputText id="firstname" @bind-Value="newAdult.FirstName"/>
+        <label for="firstname">-First name</label>
+    </p>
+    
+    <p>
+         
+        <InputText id="Lastname" @bind-Value="newAdult.LastName"/>
+        <label for="lastname">-Last name</label>    
+    </p>
+    
+    <p>
+        
+        <InputNumber id="id" @bind-Value="newAdult.Id"/>
+        <label for="id">-ID</label>
+    </p>
+    
+    <p>
+        
+        <InputNumber id="Age" @bind-Value="newAdult.Age"/>
+        <label for="age">-Age</label>
+    </p>
+    <p>
+      
+        <InputText id="occupation" @bind-Value="newAdult.JobTitle"/>
+        <label for="occupation">-Occupation</label>
+    </p>
+    <p>
+        
+        <InputText id="eyecolor" @bind-Value="newAdult.EyeColor"/>
+        <label for="eyecolor">-Eye color</label>
+    </p>
+    <p>
+        
+        <InputText id="haircolor" @bind-Value="newAdult.HairColor"/>
+        <label for="haircolor">-Hair color</label>
+    </p>
+    <p>
+        
+        <InputNumber id="weight" @bind-Value="newAdult.Weight"/>
+        <label for="weight">-Weight</label>
+    </p>
+    <p>
+        
+        <InputNumber id="height" @bind-Value="newAdult.Height"/>
+        <label for="height">-Height</label>
+    </p>
+    <p>
+       
+        <InputText id="sex" @bind-Value="newAdult.Sex"/>
+         <label for="sex">-Sex</label>
+    </p>
+    <button type="submit">Add cool person</button>
+</EditForm>
 
-    <br>
-    <br>
-    <button @onclick="AddAdult">Add cool person</button>
-</form>
-
-
-
+<div>
+    
+</div>
 
 
 
 @code {
-    private string fName;
-    private string lName;
-    private string hairColor;
-    private string occupation;
-    private string eyeColor;
-    private int age;
-    private string sex;
-    private float weight;
-    private int height;
-    private int id;
+    
+    
+    
+    private Adult newAdult = new Adult();
 
+   
 
-
-    private void AddAdult()
+    private async Task AddCoolPerson()
     {
-        Adult newAdult = new Adult{FirstName = fName,LastName = lName,Age = age,EyeColor = eyeColor,HairColor = hairColor,Height = height,Id = id,JobTitle = occupation,Sex = sex,Weight = weight};
         Model.AddAdult(newAdult);
-
-
-
-        fName = string.Empty;
-        lName = string.Empty;
-        hairColor = string.Empty;
-        occupation = string.Empty;
-        age = 0;
-        sex = String.Empty;
-        weight = 0;
-        height = 0;
-        id = 0;
-
     }
+    
+    
 }
