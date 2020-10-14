@@ -2,99 +2,103 @@
 @using Models
 @inject IJSRuntime JsRuntime
 @inject IModel Model;
+@using Data
+@using Microsoft.AspNetCore.Identity
+@using LoginComponent 
+@inject NavigationManager NavigationManager
 
-<AuthorizeView>
-<Authorized>
+
 <h3>Add some cool people below..</h3>
+<AuthorizeView Context="authContext">
+ 
+    <Authorized>
+        <div id="form">
+            <EditForm Context="formContext" Model="@newAdult" OnValidSubmit="@AddCoolPerson">
+                <DataAnnotationsValidator/>
+                <ValidationSummary/>
 
-<EditForm Model="@newAdult" OnValidSubmit="@AddCoolPerson">
-    <DataAnnotationsValidator/>
-    <ValidationSummary/>
-    
-   
-    <p>
-       
-        <InputText id="firstname" @bind-Value="newAdult.FirstName"/>
-        <label for="firstname">-First name</label>
-    </p>
-    
-    <p>
-         
-        <InputText id="Lastname" @bind-Value="newAdult.LastName"/>
-        <label for="lastname">-Last name</label>    
-    </p>
-    
-    <p>
-        
-        <InputNumber id="id" @bind-Value="newAdult.Id"/>
-        <label for="id">-ID</label>
-    </p>
-    
-    <p>
-        
-        <InputNumber id="Age" @bind-Value="newAdult.Age"/>
-        <label for="age">-Age</label>
-    </p>
-    <p>
-      
-        <InputText id="occupation" @bind-Value="newAdult.JobTitle"/>
-        <label for="occupation">-Occupation</label>
-    </p>
-    <p>
-        
-        <InputText id="eyecolor" @bind-Value="newAdult.EyeColor"/>
-        <label for="eyecolor">-Eye color</label>
-    </p>
-    <p>
-        
-        <InputText id="haircolor" @bind-Value="newAdult.HairColor"/>
-        <label for="haircolor">-Hair color</label>
-    </p>
-    <p>
-        
-        <InputNumber id="weight" @bind-Value="newAdult.Weight"/>
-        <label for="weight">-Weight</label>
-    </p>
-    <p>
-        
-        <InputNumber id="height" @bind-Value="newAdult.Height"/>
-        <label for="height">-Height</label>
-    </p>
-    <p>
-       
-        <InputText id="sex" @bind-Value="newAdult.Sex"/>
-         <label for="sex">-Sex</label>
-    </p>
-    <button type="submit">Add cool person</button>
-</EditForm>
-</Authorized>
-		<NotAuthorized>
-			<h3>You're not authorized to view this page... Please log in!</h3>
-			<Login />
-		</NotAuthorized>
 
-	</AuthorizeView>
+                <p>
 
-<div>
-    
-</div>
+                    <InputText id="firstname" @bind-Value="newAdult.FirstName"/>
+                    <label for="firstname">-First name</label>
+                </p>
+
+                <p>
+
+                    <InputText id="Lastname" @bind-Value="newAdult.LastName"/>
+                    <label for="lastname">-Last name</label>
+                </p>
+
+                <p>
+
+                    <InputNumber id="id" @bind-Value="newAdult.Id"/>
+                    <label for="id">-ID</label>
+                </p>
+
+                <p>
+
+                    <InputNumber id="Age" @bind-Value="newAdult.Age"/>
+                    <label for="age">-Age</label>
+                </p>
+                <p>
+
+                    <InputText id="occupation" @bind-Value="newAdult.JobTitle"/>
+                    <label for="occupation">-Occupation</label>
+                </p>
+                <p>
+
+                    <InputText id="eyecolor" @bind-Value="newAdult.EyeColor"/>
+                    <label for="eyecolor">-Eye color</label>
+                </p>
+                <p>
+
+                    <InputText id="haircolor" @bind-Value="newAdult.HairColor"/>
+                    <label for="haircolor">-Hair color</label>
+                </p>
+                <p>
+
+                    <InputNumber id="weight" @bind-Value="newAdult.Weight"/>
+                    <label for="weight">-Weight</label>
+                </p>
+                <p>
+
+                    <InputNumber id="height" @bind-Value="newAdult.Height"/>
+                    <label for="height">-Height</label>
+                </p>
+                <p>
+
+                    <InputText id="sex" @bind-Value="newAdult.Sex"/>
+                    <label for="sex">-Sex</label>
+                </p>
+                <button type="submit">Add cool person</button>
+            </EditForm>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <h3>You're not authorized to view this page... Please log in!</h3>
+        <Login/>
+    </NotAuthorized>
+
+</AuthorizeView>
+
 
 
 
 @code {
     
-    //[CascadingParameter] protected Task<AuthenticationState> AuthStat { get; set; }
+    [CascadingParameter] protected Task<AuthenticationState> AuthStat { get; set; }
 
-    //protected override async Task OnInitializedAsync()
-    //{
-    //	await base.OnInitializedAsync();
-    //	var user = (await AuthStat).User;
-    //	if (!user.Identity.IsAuthenticated)
-    //	{
-    //		NavigationManager.NavigateTo($"/Login");
-    //		// NavigationManager.NavigateTo($"/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
-    //	}
-    //}
+    protected override async Task OnInitializedAsync()
+    {
+    	await base.OnInitializedAsync();
+    	var user = (await AuthStat).User;
+    	if (!user.Identity.IsAuthenticated)
+    	{
+    		NavigationManager.NavigateTo($"/Login");
+    		 NavigationManager.NavigateTo($"/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
+    	}
+    }
     
     private Adult newAdult = new Adult();
 
