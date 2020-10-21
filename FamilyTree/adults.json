@@ -562,5 +562,65 @@
     "Weight": 6,
     "Height": 50,
     "Sex": "Male"
+  },
+  {
+    "JobTitle": "Plumber",
+    "Id": 123,
+    "FirstName": "Aurimas",
+    "LastName": "Bruzgys",
+    "HairColor": "Green",
+    "EyeColor": "Blue",
+    "Age": 123,
+    "Weight": 123,
+    "Height": 124,
+    "Sex": "Male"
+  },
+  {
+    "JobTitle": "Plumber",
+    "Id": 12,
+    "FirstName": "Test",
+    "LastName": "Testinski",
+    "HairColor": "Green",
+    "EyeColor": "Blue",
+    "Age": 123,
+    "Weight": 2,
+    "Height": 40,
+    "Sex": "Male"
+  },
+  {
+    "JobTitle": "",
+    "Id": 0,
+    "FirstName": "",
+    "LastName": "",
+    "HairColor": "",
+    "EyeColor": "",
+    "Age": 0,
+    "Weight": 0,
+    "Height": 0,
+    "Sex": ""
+  },
+  {
+    "JobTitle": "Plumber",
+    "Id": 12,
+    "FirstName": "AurimasN",
+    "LastName": "Test",
+    "HairColor": "Green",
+    "EyeColor": "Blue",
+    "Age": 12,
+    "Weight": 6,
+    "Height": 50,
+    "Sex": "Male"
+  },
+  {
+    "JobTitle": "Plumber",
+    "Id": 12,
+    "FirstName": "Naujas",
+    "LastName": "Testas",
+    "HairColor": "Green",
+    "EyeColor": "Blue",
+    "Age": 12,
+    "Weight": 7,
+    "Height": 45,
+    "Sex": "Female"
   }
 ]

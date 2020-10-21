@@ -102,12 +102,32 @@
     
     private Adult newAdult = new Adult();
 
-   
+    private bool value = false;
+
+
 
     private async Task AddCoolPerson()
     {
+
         Model.AddAdult(newAdult);
+        Console.WriteLine("y u no work");
+        reset();
+    }
+
+    private void reset()
+        {
+            newAdult.FirstName = String.Empty;
+            newAdult.LastName = String.Empty;
+            newAdult.Id = 0;
+            newAdult.Age = 0;
+            newAdult.JobTitle = String.Empty;
+            newAdult.HairColor = String.Empty;
+            newAdult.EyeColor = String.Empty;
+            newAdult.Weight = 0;
+            newAdult.Height = 0;
+            newAdult.Sex = String.Empty;
+        }
     }
     
     
-}
+
