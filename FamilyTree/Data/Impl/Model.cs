@@ -18,18 +18,18 @@ namespace Models
 			adults = file.Adults;
 		}
 
-		public void AddAdult(Adult adult)
+		public async Task AddAdult(Adult adult)
 		{
 			adults.Add(adult);
 			file.SaveChanges();
 		}
 
-		public IList<Adult> GetAdults()
+		public async Task<IList<Adult>> GetAdults()
 		{
 			return adults;
 		}
 
-		public IList<Adult> GetAdults(string searchCriteria)
+		public async Task<IList<Adult>> GetAdults(string searchCriteria)
 		{
 			List<Adult> search = new List<Adult>();
 			foreach (Adult adult in adults)

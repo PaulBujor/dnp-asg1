@@ -7,9 +7,9 @@ namespace Models
 {
 	public interface IModel
 	{
-		void AddAdult(Adult adult);
-		IList<Adult> GetAdults();
-		IList<Adult> GetAdults(string searchCriteria);
+		Task AddAdult(Adult adult);
+		Task<IList<Adult>> GetAdults();
+		Task<IList<Adult>> GetAdults(string searchCriteria);
 
 	}
 }

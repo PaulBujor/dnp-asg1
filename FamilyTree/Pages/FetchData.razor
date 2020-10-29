@@ -45,6 +45,6 @@ else
 @code {
     private IList<Adult> adults;
     protected override async Task OnInitializedAsync(){
-        adults = Model.GetAdults();
+        adults = await Model.GetAdults();
     }
 }
