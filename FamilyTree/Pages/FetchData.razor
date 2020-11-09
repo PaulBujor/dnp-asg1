@@ -14,28 +14,47 @@
 } 
 else 
 {
+    /*new Adult
+    {
+        Id = 2,
+        Age = 20,
+        EyeColor = "Green",
+        FirstName = "bob",
+        HairColor = "Black",
+        Height = 123,
+        Weight = 299,
+        JobTitle = "jobmuch",
+        LastName = "boom",
+        Sex = "M"
+    }*/
     <table>
         <thead>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Age</th>
-                <th>Occupation</th>
-                <th>Eye color</th>
-                <th>Hair color</th>
-                <th>Sex</th>
-            </tr>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+            <th>Eye color</th>
+            <th>Hair color</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Sex</th>
+        </tr>
         </thead>
         <tbody>
             @foreach(var adult in adults)
             {
                 <tr>
+                    <td>@adult.Id</td>
                     <td>@adult.FirstName</td>
                     <td>@adult.LastName</td>
                     <td>@adult.Age</td>
                     <td>@adult.JobTitle</td>
                     <td>@adult.EyeColor</td>
                     <td>@adult.HairColor</td>
+                    <td>@adult.Weight</td>
+                    <td>@adult.Height</td>
                     <td>@adult.Sex</td>
                 </tr>
             }

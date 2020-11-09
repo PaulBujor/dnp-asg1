@@ -33,7 +33,7 @@ namespace FamilyTree.Data.Impl
             {
                 HttpClient client = new HttpClient();
                 /*http://localhost:8081/api/adults*/
-                string message = await client.GetStringAsync("http://dnp.metamate.me/adults");
+                string message = await client.GetStringAsync("http://localhost:8081/api/adults");
                 response = JsonSerializer.Deserialize<List<Adult>>(message);
             }
             catch (HttpRequestException e)

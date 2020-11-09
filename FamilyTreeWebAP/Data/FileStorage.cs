@@ -43,6 +43,23 @@ namespace FamilyTreeWebAP.Data
             return null;
         }
 
+        public bool Delete(int id)
+        {
+            bool boolie=false;
+            for (int i = 0; i < adults.Count; i++)
+            {
+                if (adults[i].Id == id)
+                {
+                    adults.RemoveAt(i);
+                    boolie = true;
+                }
+                else boolie = false;
+                WriteAdultsToFile();
+            }
+
+            return boolie;
+        }
+
         private void WriteAdultsToFile()
         {
             string productsAsJson = JsonSerializer.Serialize(adults);

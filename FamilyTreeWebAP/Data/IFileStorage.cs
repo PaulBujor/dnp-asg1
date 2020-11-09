@@ -9,5 +9,7 @@ namespace FamilyTreeWebAP.Data
     {
         Task<List<Adult>> GetAdultsAsync();
         Task<ActionResult<Adult>> AddAdult(Adult adult);
+
+       bool Delete(int id);
     }
 }
