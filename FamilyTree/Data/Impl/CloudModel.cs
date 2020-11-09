@@ -17,7 +17,7 @@ namespace FamilyTree.Data.Impl
                 HttpClient client = new HttpClient();
                 string adultSerialized = JsonSerializer.Serialize(adult);
                 StringContent content = new StringContent(adultSerialized, Encoding.UTF8, "application/json");
-                HttpResponseMessage responseMessage = await client.PutAsync("http://dnp.metamate.me/adults", content);
+                HttpResponseMessage responseMessage = await client.PutAsync("https://localhost:5001/api/adults/post", content);
                 Console.WriteLine(responseMessage);
             }
             catch (HttpRequestException e)
@@ -32,7 +32,7 @@ namespace FamilyTree.Data.Impl
             try
             {
                 HttpClient client = new HttpClient();
-                string message = await client.GetStringAsync("http://dnp.metamate.me/adults");
+                string message = await client.GetStringAsync("https://localhost:5001/api/adults");
                 response = JsonSerializer.Deserialize<List<Adult>>(message);
             }
             catch (HttpRequestException e)
