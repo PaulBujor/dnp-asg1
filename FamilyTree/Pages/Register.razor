@@ -1,0 +1,40 @@
+﻿@page "/register"
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using FamilyTree.Authentication
+
+
+<h3>Register</h3>
+
+<AuthorizeView>
+    <NotAuthorized>
+        <input type="text" placeholder="Username" @bind-value="username" />
+        <input type="password" placeholder="Password" @bind-value="password" />
+        <div style="color:red">@errorMessage</div>
+        <br>
+        <a href="" @onclick="PerformRegister">
+            Register
+        </a>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+
+    private string username;
+    private string password;
+    private string errorMessage;
+
+    public void PerformRegister()
+    {
+        try
+        { 
+            ((CustomAuthenticationStateProvider)AuthenticationStateProvider).ValidateRegister(username, password); 
+        }
+        catch (Exception e)
+        { }
+
+
+
+    }
+
+}

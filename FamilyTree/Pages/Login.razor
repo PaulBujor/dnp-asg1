@@ -7,12 +7,15 @@
 
 <AuthorizeView>
     <NotAuthorized>
-            <input class="mr-3" type="text" placeholder="Username" @bind-value="username" />
-            <input class="mr-3" type="password" placeholder="Password" @bind-value="password" />
+        <input class="mr-3" type="text" placeholder="Username" @bind-value="username" />
+        <input class="mr-3" type="password" placeholder="Password" @bind-value="password" />
         <div style="color:red">@errorMessage</div>
 
         <a href="" @onclick="PerformLogin">
             Login
+        </a>
+        <a href="" @onclick="PerformRegister">
+            Register
         </a>
     </NotAuthorized>
     <Authorized>
@@ -51,6 +54,16 @@
         {
             ((CustomAuthenticationStateProvider)AuthenticationStateProvider).Logout();
             NavigationManager.NavigateTo("/");
+        }
+        catch (Exception e) { }
+    }
+
+    public async Task PerformRegister()
+    {
+        errorMessage = "";
+        try
+        {
+            NavigationManager.NavigateTo("/register");
         }
         catch (Exception e) { }
     }

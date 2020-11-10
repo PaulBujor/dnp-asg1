@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj": {}
+    "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj": {}
   },
   "projects": {
-    "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj": {
+    "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj",
+        "projectUniqueName": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj",
         "projectName": "FamilyTreeWebAP",
-        "projectPath": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj",
-        "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-        "outputPath": "G:\\MOKSLAI\\3rd Semester\\DNP\\Projects\\RazorProjects\\dnp-asg11\\FamilyTreeWebAP\\obj\\",
+        "projectPath": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTreeWebAP\\FamilyTreeWebAP.csproj",
+        "packagesPath": "C:\\Users\\tatar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tatar\\Documents\\GitHub\\dnp-asg1\\FamilyTreeWebAP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tatar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

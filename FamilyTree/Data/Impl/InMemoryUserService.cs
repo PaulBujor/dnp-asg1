@@ -13,34 +13,9 @@ namespace FamilyTree.Data
 
         public InMemoryUserService()
         {
+            User adminUser = new User("admin", "admin");
             users = new[] {
-            new User {
-                City = "Horsens",
-                Domain = "via.dk",
-                Password = "123456",
-                Role = "Teacher",
-                BirthYear = 1986,
-                SecurityLevel = 5,
-                UserName = "Troels"
-            },
-            new User {
-                City = "Aarhus",
-                Domain = "hotmail.com",
-                Password = "123456",
-                Role = "Student",
-                BirthYear = 1998,
-                SecurityLevel = 3,
-                UserName = "Jakob"
-            },
-            new User {
-                City = "Vejle",
-                Domain = "via.com",
-                Password = "123456",
-                Role = "Guest",
-                BirthYear = 1973,
-                SecurityLevel = 1,
-                UserName = "Kasper"
-            }
+            adminUser
         }.ToList();
         }
 
@@ -59,6 +34,23 @@ namespace FamilyTree.Data
             }
 
             return first;
+        }
+
+        public void ValidateNewUser(string userName, string password)
+        {
+            User first = users.FirstOrDefault(user => user.UserName.Equals(userName));
+            if (first != null)
+            {
+                throw new Exception("Username already exists. Use another username");
+            }
+            RegisterNewUser(userName, password);
+           
+        }
+
+        public void RegisterNewUser(string userName, string password)
+        {
+            User newUser = new User(userName, password);
+            users.Add(newUser);
         }
     }
 }

@@ -70,6 +70,22 @@ namespace FamilyTree.Authentication
                 Task.FromResult(new AuthenticationState(new ClaimsPrincipal(identity))));
         }
 
+        public void ValidateRegister(string username, string password)
+        {
+            Console.WriteLine("Validating register");
+            if (string.IsNullOrEmpty(username)) throw new Exception("Create a username");
+            if (string.IsNullOrEmpty(password)) throw new Exception("Create a password");
+
+            try
+            {
+                userService.ValidateNewUser(username, password);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
         public void Logout()
         {
             cachedUser = null;
@@ -82,10 +98,6 @@ namespace FamilyTree.Authentication
         {
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
-            claims.Add(new Claim("Role", user.Role));
-            claims.Add(new Claim("City", user.City));
-            claims.Add(new Claim("Domain", user.Domain));
-            claims.Add(new Claim("BirthYear", user.BirthYear.ToString()));
             claims.Add(new Claim("Level", user.SecurityLevel.ToString()));
 
             ClaimsIdentity identity = new ClaimsIdentity(claims, "apiauth_type");
