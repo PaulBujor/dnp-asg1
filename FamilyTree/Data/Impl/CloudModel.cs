@@ -17,7 +17,7 @@ namespace FamilyTree.Data.Impl
                 HttpClient client = new HttpClient();
                 string adultSerialized = JsonSerializer.Serialize(adult);
                 StringContent content = new StringContent(adultSerialized, Encoding.UTF8, "application/json");
-                HttpResponseMessage responseMessage = await client.PutAsync("https://localhost:5001/api/adults/post", content);
+                HttpResponseMessage responseMessage = await client.PostAsync("http://localhost:8081/api/adults/post", content);
                 Console.WriteLine(responseMessage);
             }
             catch (HttpRequestException e)
