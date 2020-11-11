@@ -8,7 +8,7 @@ namespace FamilyTree.Data
 {
         public interface IUserService
         {
-            User ValidateUser(string userName, string password);
+            Task<User> ValidateUser(string userName, string password);
 
             void ValidateNewUser(string userName, string password);
     }

@@ -13,22 +13,22 @@ namespace FamilyTree.Data
 
         public InMemoryUserService()
         {
-            User adminUser = new User("admin", "admin");
+            /*User adminUser = new User("admin", "admin");
             users = new[] {
             adminUser
-        }.ToList();
+        }.ToList();*/
         }
 
 
-        public User ValidateUser(string userName, string password)
+        public async Task<User> ValidateUser(string userName, string password)
         {
-            User first = users.FirstOrDefault(user => user.UserName.Equals(userName));
+            User first = users.FirstOrDefault(user => user.userName.Equals(userName));
             if (first == null)
             {
                 throw new Exception("User not found");
             }
 
-            if (!first.Password.Equals(password))
+            if (!first.password.Equals(password))
             {
                 throw new Exception("Incorrect password");
             }
@@ -38,7 +38,7 @@ namespace FamilyTree.Data
 
         public void ValidateNewUser(string userName, string password)
         {
-            User first = users.FirstOrDefault(user => user.UserName.Equals(userName));
+            User first = users.FirstOrDefault(user => user.userName.Equals(userName));
             if (first != null)
             {
                 throw new Exception("Username already exists. Use another username");
@@ -49,7 +49,7 @@ namespace FamilyTree.Data
 
         public void RegisterNewUser(string userName, string password)
         {
-            User newUser = new User(userName, password);
+            User newUser = new User {userName = userName,password = password};
             users.Add(newUser);
         }
     }

@@ -32,7 +32,7 @@ namespace FamilyTree
 		{
 			services.AddRazorPages();
 			services.AddServerSideBlazor();
-			services.AddScoped<IUserService, InMemoryUserService>();
+			services.AddScoped<IUserService, CloudUserService>();
 			services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 			services.AddSingleton<IModel, CloudModel>();
 		}

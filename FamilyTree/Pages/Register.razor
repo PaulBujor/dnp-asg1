@@ -1,40 +1,45 @@
 ﻿@page "/register"
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @using FamilyTree.Authentication
+@using FamilyTree.Data.Models
 
 
 <h3>Register</h3>
 
 <AuthorizeView>
-    <NotAuthorized>
-        <input type="text" placeholder="Username" @bind-value="username" />
-        <input type="password" placeholder="Password" @bind-value="password" />
+    <NotAuthorized Context="User">
+        <EditForm Model="@user" OnValidSubmit="@PerformRegister">
+            <input type="text" placeholder="Username" @bind-value="user.userName" />
+            <input type="password" placeholder="Password" @bind-value="user.password" />
+            <input type="submit" class="form-control col-1 btn btn-primary" value="Register" />
+        </EditForm>
         <div style="color:red">@errorMessage</div>
-        <br>
-        <a href="" @onclick="PerformRegister">
-            Register
-        </a>
+
+
     </NotAuthorized>
 </AuthorizeView>
 
 
 @code {
 
-    private string username;
-    private string password;
+    private User user = new User();
     private string errorMessage;
+
 
     public void PerformRegister()
     {
+
+
         try
-        { 
-            ((CustomAuthenticationStateProvider)AuthenticationStateProvider).ValidateRegister(username, password); 
+        {
+            ((CustomAuthenticationStateProvider)AuthenticationStateProvider).ValidateRegister(user.userName, user.password);
         }
         catch (Exception e)
-        { }
+        { errorMessage = e.Message; }
 
 
 
     }
+
 
 }
