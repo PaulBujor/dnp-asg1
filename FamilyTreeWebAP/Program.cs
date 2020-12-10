@@ -16,7 +16,7 @@ namespace FamilyTreeWebAP
         public static void Main(string[] args)
         {
             FileStorage fileStorage = new FileStorage();
-            
+
             CreateHostBuilder(args).Build().Run();
         }
 

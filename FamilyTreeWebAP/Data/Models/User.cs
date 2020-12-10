@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FamilyTree.Data.Models
+namespace FamilyTreeWebAP.Data.Models
 {
     public class User
     {
-        [Required]
+        [Key]
         public string userName { get; set; }
         [Required]
-       public string password { get; set; }
+        public string password { get; set; }
     }
 }

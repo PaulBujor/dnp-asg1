@@ -1,7 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using FamilyTree.Data.Models;
+using FamilyTreeWebAP.Data.Models;
 using FamilyTreeWebAP.Data;
+using FamilyTreeWebAP.Data.Impl;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -10,22 +11,22 @@ namespace FamilyTreeWebAP.Controllers
 {
     [ApiController]
     [Route("auth")]
-    public class AuthController: ControllerBase
+    public class AuthController : ControllerBase
     {
-
-
         private readonly ILogger<AuthController> _logger;
         private IFileStorage _fileStorage = new FileStorage();
         private IAuthorize _authorize = new Authorize();
+        private IUserRepo _userRepo;
 
 
-        public AuthController(ILogger<AuthController> logger)
+        public AuthController(ILogger<AuthController> logger, IUserRepo userRepo)
         {
             _logger = logger;
+            _userRepo = userRepo;
         }
-     
+
         [HttpGet("/{username}/{password}")]
-        
+
         public async Task<ActionResult<User>> Get(string username, string password)
         {
             User user = await _authorize.ValidateUser(username, password);
@@ -45,16 +46,21 @@ namespace FamilyTreeWebAP.Controllers
         {
             try
             {
-                 _authorize.RegisterUser(username, password);
-                
+                User myUser = new User
+                {
+                    userName = username,
+                    password = password
+                };
+                await _authorize.RegisterUser(username, password);
+                await _userRepo.CreateUserAsync(myUser);
             }
             catch (ArgumentException e)
             {
-                
+
                 return BadRequest();
             }
             return Ok();
         }
-      
+
     }
 }

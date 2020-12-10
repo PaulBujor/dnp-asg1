@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FamilyTree.Data.Models;
+using FamilyTreeWebAP.Data.Models;
 
 namespace FamilyTreeWebAP.Data
 {

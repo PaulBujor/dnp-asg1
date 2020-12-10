@@ -1,22 +1,84 @@
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\adults.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\appsettings.Development.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\appsettings.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\users.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.exe
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.deps.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.runtimeconfig.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.runtimeconfig.dev.json
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.dll
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\bin\Debug\netcoreapp3.1\FamilyTreeWebAP.pdb
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.csprojAssemblyReference.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.AssemblyInfoInputs.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.AssemblyInfo.cs
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.csproj.CoreCompileInputs.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.MvcApplicationPartsAssemblyInfo.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.RazorTargetAssemblyInfo.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\staticwebassets\FamilyTreeWebAP.StaticWebAssets.Manifest.cache
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\staticwebassets\FamilyTreeWebAP.StaticWebAssets.xml
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.dll
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.pdb
-G:\MOKSLAI\3rd Semester\DNP\Projects\RazorProjects\dnp-asg11\FamilyTreeWebAP\obj\Debug\netcoreapp3.1\FamilyTreeWebAP.genruntimeconfig.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/adults.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/appsettings.Development.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/appsettings.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/users.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.exe
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.deps.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.runtimeconfig.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.runtimeconfig.dev.json
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.dll
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.pdb
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.csprojAssemblyReference.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.AssemblyInfoInputs.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.AssemblyInfo.cs
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.csproj.CoreCompileInputs.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.MvcApplicationPartsAssemblyInfo.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.RazorTargetAssemblyInfo.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/staticwebassets/FamilyTreeWebAP.StaticWebAssets.Manifest.cache
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/staticwebassets/FamilyTreeWebAP.StaticWebAssets.xml
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.dll
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.pdb
+G:/MOKSLAI/3rd Semester/DNP/Projects/RazorProjects/dnp-asg11/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.genruntimeconfig.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/adults.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/users.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.deps.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.runtimeconfig.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.runtimeconfig.dev.json
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/FamilyTreeWebAP.pdb
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Humanizer.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/System.Text.Encodings.Web.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.csprojAssemblyReference.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.AssemblyInfoInputs.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.AssemblyInfo.cs
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.csproj.CoreCompileInputs.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.MvcApplicationPartsAssemblyInfo.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.RazorTargetAssemblyInfo.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.csproj.CopyComplete
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/staticwebassets/FamilyTreeWebAP.StaticWebAssets.Manifest.cache
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/staticwebassets/FamilyTreeWebAP.StaticWebAssets.xml
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.dll
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.pdb
+/Users/Claudia/Documents/VIA_UC/3rd_Semester/DNP1/Hand_ins/Assignment4/dnp-asg1/FamilyTreeWebAP/obj/Debug/netcoreapp3.1/FamilyTreeWebAP.genruntimeconfig.cache

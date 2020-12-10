@@ -9,19 +9,19 @@ using Models;
 
 namespace FamilyTree.Data.Impl
 {
-    public class CloudUserService: IUserService
+    public class CloudUserService : IUserService
     {
-        public  async Task<User> ValidateUser(string userName, string password)
+        public async Task<User> ValidateUser(string userName, string password)
         {
 
-            
-            User response = new User{userName = "",password = ""};
+
+            User response = new User { userName = "", password = "" };
 
             try
             {
                 HttpClient client = new HttpClient();
                 string message = await client.GetStringAsync($"http://localhost:8081/{userName}/{password}");
-               response =  JsonSerializer.Deserialize<User>(message);
+                response = JsonSerializer.Deserialize<User>(message);
                 Console.WriteLine(message);
                 Console.WriteLine(response.userName);
                 Console.WriteLine(response.password);
@@ -34,14 +34,14 @@ namespace FamilyTree.Data.Impl
             Console.WriteLine(response.password);
             Console.WriteLine(response.userName);
             return response;
-            
-           
+
+
 
         }
 
         public async void ValidateNewUser(string userName, string password)
         {
-            User tmpUser = new User {userName = userName, password = password};
+            User tmpUser = new User { userName = userName, password = password };
             try
             {
                 HttpClient client = new HttpClient();
